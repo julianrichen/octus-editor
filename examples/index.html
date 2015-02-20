@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Octus Editor</title>
+	<!--CSS Files-->
+	<link rel="stylesheet" type="text/css" href="../src/editor.css" />
+    <!--JS Files-->
+    <script type="text/javascript" src="../src/editor.js"></script>
+    <script type="text/javascript">
+    window.onload = function() {
+        window.OctusEditor = new OctusEditor();
+    };
+    </script>
+</head>
+<body style="background: #fafafa;">
+<div style="max-width: 1024px; margin: 0 auto; padding: 50px 7px;">
+    <div class="octus-editor group">
+        <div class="styles group">
+            <ul>
+                <li data-tag="b" class="bold" accesskey="B">B</li>
+                <li data-tag="i" class="italic" accesskey="I">I</li>
+                <li data-tag="u" class="underline" accesskey="U">U</li>
+                <li data-tag="s" class="strike">S</li>
+            </ul>
+            <ul>
+                <li data-tag="img">img</li>
+                <li data-tag="url">url</li>
+                <li data-tag="youtube">YouTube</li>
+            </ul>
+            <ul>
+                <li data-tag="align" data-subtag="left" class="align left"><span class="line"></span><span class="line short"></span><span class="line"></span><span class="line short"></span><span class="line"></span></li>
+                <li data-tag="align" data-subtag="center" class="align center"><span class="line"></span><span class="line short"></span><span class="line"></span><span class="line short"></span><span class="line"></span></li>
+                <li data-tag="align" data-subtag="right" class="align right"><span class="line"></span><span class="line short"></span><span class="line"></span><span class="line short"></span><span class="line"></span></li>
+            </ul>
+            <ul>
+                <li data-tag="code">code</li>
+                <li data-tag="quote">quote</li>
+                <li data-tag="spoiler">spoiler</li>
+            </ul>
+            <ul>
+                <li class="dropdown">
+                    Smiley
+                    <ul class="smiley">
+                        <li data-snippet=":)">Smile</li>
+                        <li data-snippet=":D">Grin</li>
+                        <li data-snippet=":(">Sad</li>
+                        <li data-snippet=";)">Wink</li>
+                        <li data-snippet=":O">Shocked</li>
+                        <li data-snippet=":P">Tongue</li>
+                        <li data-snippet=":S:">Unsure</li>
+                        <li data-snippet=":&gt;&lt;:">Angry</li>
+                        <li data-snippet=":'(">Cry</li>
+                        <li data-snippet=":|">Pouty</li>
+                    </ul>
+                </li>
+            </ul>
+            <ul>
+                <li class="dropdown">
+                    Font Family
+                    <ul>
+                        <li data-tag="font" data-subtag="Open Sans">Open Sans</li>
+                        <li data-tag="font" data-subtag="Times New Roman">Times New Roman</li>
+                        <li data-tag="font" data-subtag="Helvetica">Helvetica</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <noscript><div class="no-script">This content editor needs javascript, please enable javascript to use this editor!</div></noscript>
+        <div class="textarea group">
+            <textarea rows="3" cols="17" id="editor_content"></textarea>
+        </div>
+        <div class="options group">
+            <a class="button" href="#">Preview</a>
+            <a class="button" href="#">Post</a>
+        </div>
+    </div>
+</div>
+</body>
+</html>
