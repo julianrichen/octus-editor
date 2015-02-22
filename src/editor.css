@@ -1,9 +1,9 @@
 .octus-editor .group:after {
-    content: ".";
-    display: block;
-    height: 0;
-    clear: both;
-    visibility: hidden;
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
 }
 * html .octus-editor .group { height: 1%; }
 *:first-child+html .octus-editor .group { min-height: 1px; }
@@ -72,7 +72,7 @@
 .octus-editor > .styles > ul > li.dropdown {
 	position: relative;
 	z-index: 1001;
-    padding-right: 25px;
+	padding-right: 25px;
 }
 .octus-editor > .styles > ul > li.dropdown:before {
 	content: "";
@@ -198,7 +198,7 @@
 .octus-editor .textarea > textarea {
 	border: none;
 	color: #444444;
-    font-family: inherit;
+	font-family: inherit;
 	line-height: 1.5em;
 	padding: 21px;
 	resize: vertical;
@@ -241,36 +241,36 @@
 }
 /* Dark Theme */
 .octus-editor.dark .styles {
-    background: #222222;
-    border-color: #111111;
+	background: #222222;
+	border-color: #111111;
 }
 .octus-editor.dark .textarea {
-    border-color: #111111;
+	border-color: #111111;
 }
 .octus-editor.dark .textarea textarea {
-    background: #333333;
+	background: #333333;
 }
 .octus-editor.dark > .styles > ul > li {
-    background: #333333;
-    border-color: #111111;
-    color: #ffffff;
+	background: #333333;
+	border-color: #111111;
+	color: #ffffff;
 }
 .octus-editor.dark > .styles > ul > li.dropdown ul {
-    background: #333333;
-    border-color: #111111;
+	background: #333333;
+	border-color: #111111;
 }
 .octus-editor.dark > .styles > ul > li.dropdown ul li {
-    border-color: #111111;
+	border-color: #111111;
 }
 .octus-editor.dark .no-script {
-    border-color: #111111;
-    color: #ffffff;
+	border-color: #111111;
+	color: #ffffff;
 }
 .octus-editor.dark .textarea > textarea {
-    color: #ffffff;
+	color: #ffffff;
 }
 .octus-editor.dark a.button {
-    background: #333333;
-    border-color: #111111;
-    color: #ffffff;
+	background: #333333;
+	border-color: #111111;
+	color: #ffffff;
 }
