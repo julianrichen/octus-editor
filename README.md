@@ -2,7 +2,7 @@
 Octus Editor is a simple, light weight bbcode editor built with HTML, CSS and JS with support for keyboard shortcuts. Octus editor allows for custom bbcodes by simply adding data tags to the buttons, there are many options so make sure to look below for a full demonstration.
 
 # Demo
-Check out Octus Editor in action over at the [GitHub page @ firedart.github.io/Octus-editor/](http://firedart.github.io/Octus-editor/).
+Check out Octus Editor in action over at the [GitHub page @ julianrichen.github.io/octus-editor](http://julianrichen.github.io/octus-editor/).
 
 ![Octus-editor](http://i.imgur.com/xdGdPnl.jpg)
 ![Octus-editor dark](http://i.imgur.com/BwUL3Qf.jpg)
